@@ -1,0 +1,38 @@
+@font-face{
+    font-family: 'Red Hat Display Medium';
+    src: url(./assets/fonts/redhatdisplay-medium-webfont.woff2)format("woff2"),url(./assets/fonts/redhatdisplay-medium-webfont.woff)format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Red Hat Display Bold';
+    src: url(./assets/fonts/redhatdisplay-bold-webfont.woff2)format("woff2"),url(./assets/fonts/redhatdisplay-bold-webfont.woff)format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Red Hat Display Black';
+    src: url(./assets/fonts/redhatdisplay-black-webfont.woff2)format("woff2"),url(./assets/fonts/redhatdisplay-black-webfont.woff)format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+/* Colors */
+:root{
+/* Primary */
+
+--Pale_blue: hsl(225, 100%, 94%);
+--Bright_blue: hsl(245, 75%, 52%);
+
+/* Neutral */
+
+--Very_pale_blue: hsl(225, 100%, 98%);
+--Desaturated_blue: hsl(224, 23%, 55%);
+--Dark_blue: hsl(223, 47%, 23%);
+
+/* fonts  */
+--Red_Hat_Display_Medium: 'Red Hat Display Medium',sans-serif;
+--Red_Hat_Display_Bold: 'Red Hat Display Bold',sans-serif;
+--Red_Hat_Display_Black: 'Red Hat Display Black',sans-serif;
+}
+
+
